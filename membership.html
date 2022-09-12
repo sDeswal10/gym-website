@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Fitness Gym</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="/images/real-gym-logo.png" alt="logo"></a>
+            <div class="nav-list" id="navList">
+                <img src="/images/close.png" class="fa" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </div>
+            <img src="/images/menu.png" class="fa" onclick="showMenu()">
+        </nav>
+        <div class="text-box">
+            <h1>Membership</h1>
+        </div>
+
+    </section>
+</header>
+<main>
+    <section class="membership">
+        <div class="membership-form-heading">
+            <h3>Registration Form</h3>
+            <div class="container-box">
+            <form action="">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter Your First Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter Your Last Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Place</span>
+                        <input type="text" placeholder="Enter Your Place" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mobile No.</span>
+                        <input type="number" placeholder="Enter Your Mobile No" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter Your Email" required>
+                    </div>
+                </div>
+                <div class="gender-detail">
+                    <span class="gender-title">Gender</span>
+                    <br> <br>
+                    <label for="" class="gender">
+                        <input type="radio" value="male" name="gender">Male
+                    </label>
+                    <label for="" class="gender">
+                        <input type="radio" value="male" name="gender">Female
+                    </label>
+                    <label for="" class="gender">
+                        <input type="radio" value="male" name="gender">Prefer not to say
+                    </label>
+                </div>
+                <div class="sub-pack">
+                    <p>Plan</p>
+                    <div class="plans">
+                        <label for="1 Month(1499/-)">
+                        <input type="radio" name="plan"> 1 Month(1499/-)
+                    </label>
+                    <label for="3 Month(3999/-)">
+                        <input type="radio" name="plan" > 3 Month(3999/-)
+                    </label>
+                    <label for="6 Month(6999/-)">
+                        <input type="radio" name="plan" > 6 Month(6999/-)
+                    </label>
+                    <label for="9 Month(9999/-)">
+                        <input type="radio" name="plan" > 9 Month(9999/-)
+                    </label>
+                        <label for="12 Month(11999/-)">
+                        <input type="radio" name="plan" > 12 Month(11999/-)
+                    </label>
+                    
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Do you want personal trainer?</p>
+                    <input type="radio" name="que" class="que">Yes
+                    <input type="radio" name="que" class="que">No
+                </div>
+                <div class="btn-submit">
+                <button class="btn-submit" type="submit" value="Submit">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    </section>
+    
+    
+</main>
+<footer>
+    <section class="footer1">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eveniet ut quod <br>eligendi tempore sapiente harum eum ea error.</p>
+        <div class="social-icon">
+            <a href="http://www.facebook.com" target="_blank"><img src="/images/facebook.png" alt="facebook"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="/images/instagram.png" alt="instagram"></a>
+            <a href="http://www.twitter.com" target="_blank"><img src="/images/twitter.png" alt="twitter"></a>
+            <p>Made with <img src="/images/love.png" alt="love">by Sachin Deswal</p>
+        </div>
+    </section>
+</footer>
+    <script src="/js/index.js"></script>
+</body>
+</html>
